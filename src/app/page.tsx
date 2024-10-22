@@ -130,10 +130,10 @@ export default function Navbar() {
             Follow us on social media
           </p>
           <div className="flex gap-3 lg:justify-end pt-3">
-            <Twitter />
-            <Facebook />
-            <Instagram />
-            <Linkedin />
+            <Link href='https://x.com/pikuphq' target="_blank"><Twitter /></Link> 
+            <Link href=''><Facebook /></Link>
+            <Link href='https://instagram.com/pikuphq' target="_blank"><Instagram /></Link>
+            <Link href='https://www.linkedin.com/company/pikup-hq' target="_blank"><Linkedin /></Link>
           </div>
         </div>
       </div>

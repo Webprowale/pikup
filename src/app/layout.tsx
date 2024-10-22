@@ -8,33 +8,33 @@ const beVietnam = Be_Vietnam_Pro({
 });
 
 export const metadata: Metadata = {
-  title: "Pikup", 
+  title: "Pikup - Revolutionizing Food Delivery", 
   description: "Your trusted platform for on-demand delivery services.", 
-  keywords: "delivery, logistics, on-demand services, Pikup", 
+  keywords: "delivery, logistics, on-demand services, Pikup, food, food Delivery, chowdeck, chop, hungry, campus",
   robots: "index, follow", 
-  openGraph: {
-    title: "Pikup - On-Demand Delivery Services",
-    description: "Fast, reliable delivery services at your fingertips.",
-    url: "https://pikup.com", 
-    siteName: "Pikup",
-    images: [
-      {
-        url: "/images/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Pikup Delivery Services",
-      },
-    ],
-  },
+  // openGraph: {
+  //   title: "Pikup - On-Demand Delivery Services",
+  //   description: "Fast, reliable delivery services at your fingertips.",
+  //   url: "https://pikup.ng", 
+  //   siteName: "Pikup",
+  //   images: [
+  //     {
+  //       url: "/asserts/Frame 2.svg",
+  //       width: 1200,
+  //       height: 630,
+  //       alt: "Pikup Delivery Services",
+  //     },
+  //   ],
+  // },
   twitter: {
     card: "summary_large_image",
-    site: "@pikup", 
-    title: "Pikup - On-Demand Delivery Services",
+    site: "@pikuphq", 
+    title: "Pikup - Revolutionizing Food Delivery",
     description: "Fast, reliable delivery services at your fingertips.",
-    images: "/images/twitter-card.jpg", 
+    images: "/font/favicon.png", 
   },
   alternates: {
-    canonical: "https://pikup.com", 
+    canonical: "https://pikup.ng", 
   },
 };
 
