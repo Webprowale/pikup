@@ -73,8 +73,8 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-      <div className="hero mt-7 sm:mt-20 flex flex-col gap-5 items-center sm:py-4 px-6">
-        <h1 className="lg:text-[65px] text-[38px] font-bold text-[#1E1E1E] text-center tracking-tight">
+      <div className="hero mt-7 sm:mt-20 flex flex-col gap-5 items-center sm:py-4 px-6 max-h-screen">
+        <h1 className="lg:text-[65px] text-[34px] font-bold text-[#1E1E1E] text-center tracking-tight">
           <span className="sm:flex gap-3 items-center justify-center me-3">
             Be the First to
             <Image
@@ -85,7 +85,7 @@ export default function Navbar() {
               className="hidden sm:block"
             />
           </span>
-          Experience a Revolaution <br />
+          Experience a Revolution <br />
           <span className="sm:flex gap-3 items-center justify-center">
             <Image
               src="/asserts/Group 2.svg"
@@ -112,13 +112,13 @@ export default function Navbar() {
       </div>
       <div className="mt-[60px] grid lg:grid-cols-2 lg:px-20 mb-10 px-1 ">
         <div className="grid grid-cols-2 gap-[10%] items-center">
-          <div className="row">
+          <div className="row sm:px-0 px-3 place-self-start">
             <hr className="border-t border-[#FE7622] border-2 my-4 md:w-1/2" />
             <p className="text-[#494949] md:w-1/2">
               Say goodbye to delayed order.
             </p>
           </div>
-          <div className="row place-self-end">
+          <div className="row sm:px-0 px-3 place-self-end">
             <hr className="border-t border-[#FE7622] border-2 my-4 md:w-1/2" />
             <p className="text-[#494949] md:w-1/2">
               App that Satsify your cravings
@@ -157,7 +157,7 @@ export default function Navbar() {
           </p>
         </div>
       </div>
-      <div className=" py-16 md:px-24 px-6 flex flex-col gap-5" id="service">
+      <div className=" py-16 md:px-24 px-3 flex flex-col gap-5" id="service">
         <h6 className="text-[rgb(254,118,34)] bg-[#FE76221A] w-[100px] rounded-md">
           Our services
         </h6>
@@ -206,7 +206,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <div className=" py-16 md:px-32 px-3 flex flex-col gap-5" id="faq">
+      <div className=" py-16 md:px-24 px-3 flex flex-col gap-5" id="faq">
         <h5 className="text-[rgb(254,118,34)] bg-[#FE76221A] w-[40px] rounded-md">
           FAQ
         </h5>
@@ -270,13 +270,13 @@ export default function Navbar() {
           </AccordionItem>
         </Accordion>
       </div>
-      <div className=" py-16 md:px-32 px-3">
-        <div className="bg-[#1E1E1E] p-8  grid lg:grid-cols-2 gap-6 rounded-md ">
+      <div className=" py-16 md:px-24 px-3">
+        <div className="bg-[#1E1E1E] md:p-12 p-6  grid lg:grid-cols-2 gap-6 rounded-md">
           <div className="pt-10">
-            <h3 className="text-white md:text-[30px] text-[25px] font-semibold mb-5">
+            <h3 className="text-white md:text-[38px] text-[28px] font-semibold mb-5">
               Get Early Access to Pikup!
             </h3>
-            <p className="text-[#ACACAC] text-[17px]">
+            <p className="text-[#ACACAC] text-[19px]">
               Be one of the first to experience the future of food delivery.
               Join our exclusive community of beta testers and get early access
               to Pikup.
