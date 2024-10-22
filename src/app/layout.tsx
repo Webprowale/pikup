@@ -10,7 +10,6 @@ const beVietnam = Be_Vietnam_Pro({
 export const metadata: Metadata = {
   title: "Pikup", 
   description: "Your trusted platform for on-demand delivery services.", 
-  authors: "Pikup Team", 
   keywords: "delivery, logistics, on-demand services, Pikup", 
   robots: "index, follow", 
   openGraph: {
